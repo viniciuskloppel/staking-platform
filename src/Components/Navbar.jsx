@@ -3,7 +3,7 @@ import NavItem from './NavItem';
 
 export default function Navbar() {
   return (
-    <div className="min-w-min col-span-2 h-screen bg-white border-r rounded-md py-12 pr-8 -top-8">
+    <div className=" col-span-3 h-screen bg-white border-r rounded-md py-12 pr-8 -top-8 hidden lg:flex lg:flex-col xl:col-span-2">
       <a className="inline-block" href="https://google.com">
         <h1 className="flex items-center text-3xl text-purple-600 font-bold mt-4">
           <img
@@ -16,7 +16,7 @@ export default function Navbar() {
         </h1>
       </a>
       <div className="flex flex-col gap-y-8 mt-8">
-        <div className="bg-gray-200 py-2 rounded">
+        <div className="bg-gray-200 py-2 rounded whitespace-nowrap">
           <NavItem>
             <img
               className="inline-block"
