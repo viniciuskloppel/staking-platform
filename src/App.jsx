@@ -6,7 +6,7 @@ import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
-    <div className="grid grid-cols-12 px-8 gap-8 h-screen overflow-hidden">
+    <div className="grid grid-cols-8 px-8 gap-8 overflow-hidden sm:grid-cols-12">
       <Navbar />
       <Body />
       <Sidebar />
